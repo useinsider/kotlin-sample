@@ -49,7 +49,7 @@ dependencies {
     //Optional for Geofence
     implementation 'com.google.android.gms:play-services-location:19.0.1'
 
-    implementation 'com.useinsider:insider:13.1.0-nh'
+    implementation 'com.useinsider:insider:13.2.0-nh'
     implementation 'com.google.firebase:firebase-messaging:21.1.0'
     implementation 'com.google.firebase:firebase-iid'
     implementation 'androidx.lifecycle:lifecycle-process:2.4.1'
