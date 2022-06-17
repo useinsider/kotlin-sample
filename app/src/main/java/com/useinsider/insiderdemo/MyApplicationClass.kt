@@ -20,14 +20,6 @@ class MyApplicationClass : Application() {
                     "[INSIDER]",
                     "[NOTIFICATION_OPEN]: $data"
                 )
-                InsiderCallbackType.TEMP_STORE_PURCHASE -> Log.d(
-                    "[INSIDER]",
-                    "[TEMP_STORE_PURCHASE]: $data"
-                )
-                InsiderCallbackType.TEMP_STORE_ADDED_TO_CART -> Log.d(
-                    "[INSIDER]",
-                    "[TEMP_STORE_ADDED_TO_CART]: $data"
-                )
                 InsiderCallbackType.TEMP_STORE_CUSTOM_ACTION -> Log.d(
                     "[INSIDER]",
                     "[TEMP_STORE_CUSTOM_ACTION]: $data"
